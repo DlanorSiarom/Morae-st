@@ -1,0 +1,6 @@
+{
+  "name": "Moræ",
+  "description": "Portfólio interativo e elegante para a produtora e editora de vídeo Moræ, com estética minimalista preta e roxa.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
