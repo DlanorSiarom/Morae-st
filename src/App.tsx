@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { Film, Sliders, Volume2, Sparkles, ArrowRight, Scissors, Eye, Zap, Bird, Compass } from "lucide-react";
+import { Analytics } from "@vercel/analytics/react";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Portfolio from "./components/Portfolio";
@@ -416,6 +417,8 @@ export default function App() {
       {/* 3. Global Footer Component */}
       <Footer setActiveTab={setActiveTab} />
 
+      {/* Vercel Web Analytics */}
+      <Analytics />
     </div>
   );
 }
